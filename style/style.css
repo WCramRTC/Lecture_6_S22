@@ -1,0 +1,77 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: red; */
+}
+
+
+/* ID's - # */
+#blog-post {
+    background-color: green;
+    color: yellow;
+    width: 75%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navigation {
+    border: 1px solid black;
+    background-color: grey;
+}
+
+/* Class - . */
+
+.navButton {
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    color: black;
+    transition: background-color 1s;
+    text-decoration: none;
+}
+
+.navButton:hover {
+    color: white;
+    background-color: black;
+}
+
+#hero-image {
+    height: 200px;
+    border: 1px solid black;
+    background-image: url("https://rtc.edu/sites/default/files/styles/news_stories_teaser/public/rtc%20campus.png?itok=pt7Dw0Yo");
+    background-size: cover;
+}
+
+.hero-text-color {
+    color: white;
+}
+
+.hero-text-size {
+    font-size: 2rem;
+}
+
+/* .hero-image-image {
+    width: 100%;
+} */
+
+#blog-posts {
+    background-color: grey;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.blog-post {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+    margin: 5px;
+    height: 150px;
+}
+
+.title {
+    color: pink;
+}
